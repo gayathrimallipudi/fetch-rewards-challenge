@@ -28,7 +28,7 @@ This FastAPI service processes receipts and calculates reward points based on pr
    
 4. **Start the API**:
 
-   - uvicorn app.main:app --reload
+   - uvicorn main:app --reload
    
 5. **Open API Docs**:
    - http://127.0.0.1:8000/docs
