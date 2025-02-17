@@ -4,10 +4,10 @@
 This FastAPI service processes receipts and calculates reward points based on predefined rules.
 
 ## Features
-- Submit receipts via \`POST /receipts/process\`
-- Retrieve points via \`GET /receipts/{id}/points\`
+- Submit receipts via \POST /receipts/process\
+- Retrieve points via \GET /receipts/{id}/points\
 - Dockerized for easy deployment
-- Includes automated tests with \`pytest\`
+- Includes automated tests with \pytest\
 
 ## Setup Instructions
 
@@ -35,7 +35,7 @@ This FastAPI service processes receipts and calculates reward points based on pr
 
 ### **2️⃣ Run with Docker**
 1. **Build the Docker image**:
-   - docker build -t fetch-rewards-api .
+   - docker build -t fetch-rewards-api . 
  
 2. **Run the container**:
    - docker run -p 8000:8000 fetch-rewards-api
